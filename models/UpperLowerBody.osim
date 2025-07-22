@@ -32757,73 +32757,8 @@
 		</ForceSet>
 		<!--Markers in the model.-->
 		<MarkerSet>
-		  <objects>
-		    <Marker name="RASI">
-		      <body>pelvis</body>
-		      <location>0.08 0.10 0.10</location>
-		    </Marker>
-		    <Marker name="LASI">
-		      <body>pelvis</body>
-		      <location>-0.08 0.10 0.10</location>
-		    </Marker>
-		    <Marker name="RPSI">
-		      <body>pelvis</body>
-		      <location>0.04 0.10 -0.10</location>
-		    </Marker>
-		    <Marker name="LPSI">
-		      <body>pelvis</body>
-		      <location>-0.04 0.10 -0.10</location>
-		    </Marker>
-		    <Marker name="RKNE">
-		      <body>femur_r</body>
-		      <location>0.00 -0.40 0.00</location>
-		    </Marker>
-		    <Marker name="LKNE">
-		      <body>femur_l</body>
-		      <location>0.00 -0.40 0.00</location>
-		    </Marker>
-		    <Marker name="RANK">
-		      <body>tibia_r</body>
-		      <location>0.00 -0.40 0.00</location>
-		    </Marker>
-		    <Marker name="LANK">
-		      <body>tibia_l</body>
-		      <location>0.00 -0.40 0.00</location>
-		    </Marker>
-		    <Marker name="RTOE">
-		      <body>foot_r</body>
-		      <location>0.10 -0.02 0.20</location>
-		    </Marker>
-		    <Marker name="LTOE">
-		      <body>foot_l</body>
-		      <location>0.10 -0.02 0.20</location>
-		    </Marker>
-		    <Marker name="C7">
-		      <body>torso</body>
-		      <location>0.00 0.30 -0.10</location>
-		    </Marker>
-		    <Marker name="T10">
-		      <body>torso</body>
-		      <location>0.00 0.25 -0.15</location>
-		    </Marker>
-		    <Marker name="CLAV">
-		      <body>torso</body>
-		      <location>0.00 0.32 0.08</location>
-		    </Marker>
-		    <Marker name="STRN">
-		      <body>torso</body>
-		      <location>0.00 0.28 0.12</location>
-		    </Marker>
-		    <Marker name="LFHD">
-		      <body>head</body>
-		      <location>-0.06 0.12 0.12</location>
-		    </Marker>
-		    <Marker name="RFHD">
-		      <body>head</body>
-		      <location>0.06 0.12 0.12</location>
-		    </Marker>
-		  </objects>
-		  <groups/>
+		  <objects />
+		  <groups />
 		</MarkerSet>
 		<!--ContactGeometries  in the model.-->
 		<ContactGeometrySet>
