@@ -26,8 +26,9 @@ updated_count = 0
 for elem in root.iter():
     if elem.text:
         text = elem.text.strip()
-        if text in geometry_files:
-            elem.text = os.path.join(custom_geometry_folder, text)
+        base = os.path.basename(text)  # get just the filename
+        if base in geometry_files:
+            elem.text = os.path.join(custom_geometry_folder, base)
             updated_count += 1
 
 print(f"✅ Updated {updated_count} XML element(s) that referenced .vtp geometry files.")
